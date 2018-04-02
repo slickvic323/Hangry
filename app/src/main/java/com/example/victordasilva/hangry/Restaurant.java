@@ -9,6 +9,8 @@ public class Restaurant {
     private String address;
     private double distanceFromLocation;
     private String[] tags;
+    private int priceRange;
+    private boolean openNow;
 
     public Restaurant(){
 
@@ -30,6 +32,14 @@ public class Restaurant {
         return tags;
     }
 
+    public int getPriceRange(){
+        return priceRange;
+    }
+
+    public boolean getOpenNow(){
+        return openNow;
+    }
+
     public void setName(String name){
         this.name = name;
     }
@@ -44,5 +54,13 @@ public class Restaurant {
 
     public void setTags(String[] tags){
         this.tags = tags;
+    }
+
+    public void setPriceRange(int priceRange){
+        this.priceRange = priceRange;
+    }
+
+    public void setOpenNow(boolean openNow){
+        this.openNow = openNow;
     }
 }
