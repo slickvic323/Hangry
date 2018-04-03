@@ -1,4 +1,4 @@
-package com.example.victordasilva.hangry;
+package com.example.victordasilva.hangry.models;
 
 /**
  * Created by victordasilva on 4/2/18.

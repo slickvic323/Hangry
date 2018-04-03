@@ -1,8 +1,10 @@
-package com.example.victordasilva.hangry;
+package com.example.victordasilva.hangry.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
+
+import com.example.victordasilva.hangry.R;
 
 public class ListRestaurantsActivity extends AppCompatActivity {
 
